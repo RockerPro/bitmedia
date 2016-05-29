@@ -1,0 +1,538 @@
+@font-face{
+	font-family:zwodrei-Bold;
+	src:url(../fuentes/zwodrei_bold_demo.ttf);
+}
+@font-face{
+	font-family:Agenda-Bold;
+	src:url(../fuentes/AgendaBold.ttf);
+}
+@font-face{
+	font-family:Agenda-Light;
+	src:url(../fuentes/AgendaLight.ttf);
+}
+@font-face{
+	font-family:Agenda-Medium;
+	src:url(../fuentes/AgendaMedium.ttf);
+}
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section1,
+	#section2,
+	#section3,
+	#section4,
+	#section5,
+	#section6,
+	#section7,
+	#section8,
+	#section9,
+	#section10,
+	#section11,
+	#section12{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* Defining each sectino background and styles
+	* --------------------------------------- */
+	#section1{
+		background-image: url(../fotos/1.jpg);
+		padding: 20% 0 0 0;
+	}
+	#section2{
+		background-image: url(../fotos/2.jpg);
+	}
+	#section3{
+		background-image: url(../fotos/3.jpg);
+		    background-position: right;
+	}
+	#section4{
+		background: #fff;
+	}
+	#section5{
+		background-image: url(../fotos/4.jpg);
+	}
+	#section6{
+		background: white;
+	}
+	#section7{
+		background: #011720;
+	}
+	#section8{
+		background: #fff;
+	}
+	#section9{
+		background: #fff;
+	}
+	#section10{
+		background-image: url(../fotos/5.jpg);
+	}
+	#section11{
+		background: #fff;
+	}
+	#section12{
+		background-image: url(../fotos/6.jpg);
+	}
+
+/* seccion 1 */
+.logo{
+	width: 190px;
+	margin: 0 auto;
+}
+.logos-bit{
+	width: 140px;
+}
+.cont-logos{
+	width: 100%;
+	margin-top: 100px;
+}
+
+/* seccion 2 */
+#section2 h1{
+	font-size: 30px;
+	font-family: zwodrei-Bold;
+	color: white;
+	text-shadow: 1px 2px #2B2A2A;
+}
+#section2 h3{
+	font-size: 25px;
+	font-family: Agenda-Light;
+	color: white;
+}
+#section2 h3 e{
+	font-family: Agenda-Light;
+}
+#section2 p{
+	font-family: Agenda-Medium;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.cont-sec2{
+	margin-top: 210px;
+}
+/* anicacion material boton */
+.btn-green{
+  position: relative;
+  margin-top: 25px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  background: #1ECD9B;
+  color: #032F40;
+  padding: 7px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Agenda-Bold;
+}
+/* seccion 3 */
+#section3 h1{
+	font-size: 50px;
+	font-family: zwodrei-Bold;
+	color: white;
+	text-shadow: 1px 2px #2B2A2A;
+}
+.icon-ideologia{
+	width: 100px;
+}
+#section3 .nuestra{
+	margin-top: 35px;
+}
+.cont-sec3{
+	padding-top: 120px;
+}
+.tit-ideologia{
+	font-family: Agenda-Light;
+	color: white;
+	font-size: 20px;
+    margin-top: 15px;
+}
+.line-green{
+	width: 100%;
+	height: 3px;
+	border-bottom: 1px solid #1ECD9B;
+	border-bottom-style: dashed;
+	margin-top: 50px;
+}
+.degradado{
+	background: linear-gradient( 75deg, transparent, #099164);
+	margin-top: 150px;
+	color: white;
+}
+.ideas{
+	font-family: Agenda-Light;
+	font-size: 45px;
+}
+.small{
+	font-family: Agenda-Light;
+	font-size: 12px;
+}
+.wolrd{
+	font-family: Agenda-Bold;
+	font-size: 45px;
+}
+/* seccion 4 */
+#section4 h1{
+	font-size: 50px;
+	font-family: zwodrei-Bold;
+	color: #043446;
+}
+.text{
+	color: #333333;
+	font-family: Agenda-Light;
+	font-size: 17px;
+	margin-top: 15px;
+}
+.icon-acerca{
+	width: 140px;
+}
+#section4 .acerca{
+	margin-top: 55px;
+}
+.tit-acerca{
+	font-family: Agenda-Light;
+	color: black;
+	font-size: 20px;
+    margin-top: 15px;
+}
+/* seccion 5 */
+#section5 h1{
+	font-size: 50px;
+	font-family: zwodrei-Bold;
+	color: white;
+}
+.cont-sec4{
+	padding-top: 120px;
+}
+.wt1{
+	background: rgba(102, 102, 102, 0.7);
+	    padding-bottom: 50px;
+}
+.wt2{
+	background: rgba(6, 94, 128, 0.7);
+}
+.wt3{
+	background: rgba(0, 142, 105, 0.7);
+}
+.wt4{
+	background: rgba(173, 80, 79, 0.7);
+}
+.wt5{
+	background: rgba(46, 46, 72, 0.7);
+}
+.logos-sec5{
+	width: 200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.logos-sec5-2{
+	width: 300px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.text2{
+	color: white;
+	font-family: Agenda-Light;
+	font-size: 18px;
+	margin-top: 15px;
+}
+/*seccion 6*/
+#section6 h1{
+	font-size: 45px;
+	font-family: zwodrei-Bold;
+	color: white;
+	text-shadow: 1px 2px #2B2A2A;
+}
+.icon-help{
+	width: 150px;
+}
+#section6 .nuestra{
+	margin-top: 60px;
+}
+.cont-foo{
+	padding-bottom: 35px;
+}
+.cont-sec6{
+	padding-top: 120px;
+	background: #011720;
+    padding-bottom: 35px;
+}
+.subtit{
+	font-family: zwodrei-Bold;
+	color: black;
+	font-size: 36px;
+	text-align: left;
+}
+.t-left{
+	text-align: left;
+}
+.lista-l{
+	text-align: left;
+	font-family: Agenda-Light;
+	font-size: 15px;
+	font-weight: bold;
+	color: #043446;
+    padding-left: 0px;
+    margin-left: -25px;
+}
+.lista-l li{
+	float: left;
+	margin-left: 40px;
+	padding-left: 0px;
+}
+.img-func{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*seccion 7*/
+.cont-sec7 button{
+	float: left !important;
+}
+.cont-sec7 h2{
+	font-family: zwodrei-Bold;
+	font-size: 45px;
+	color: white;
+	text-align: left;
+}
+.cont-sec7 h1{
+	font-family: zwodrei-Bold;
+	font-size: 50px;
+	color: white;
+	text-align: left;
+}
+.cont-sec7 p{
+	font-family: Agenda-Light;
+	font-size: 15px;
+	color: white;
+	text-align: left;
+}
+.cont-sec7 .p-bold{
+	font-family: Agenda-Bold;
+	font-size: 17px;
+	color: white;
+	text-align: left;
+}
+.cont-sec7 div{
+	float: right !important;
+}
+.icon-sec7{
+    width: 100px;
+    margin-bottom: 30px;
+}
+.arrow{
+	display: none;
+}
+.arrowr{
+	width: 25px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -55px;
+}
+.arrowl{
+    width: 25px;
+    position: absolute;
+    margin-left: -65px;
+    margin-top: -55px;
+}
+.cont-pro{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.cont-sec7 .cont-pro p{
+	text-align: left;
+}
+.pd-top{
+	padding-top: 200px;
+}
+.pd-btn{
+	padding-bottom: 30px;
+}
+
+/* seccion 8*/
+#section8 h1{
+	font-size: 50px;
+	font-family: zwodrei-Bold;
+	color: #043446;
+}
+.cont-sec8{
+	padding-top: 120px;
+}
+/* seccion 9 */
+#section9 h1{
+	font-size: 50px;
+	font-family: zwodrei-Bold;
+	color: #043446;
+}
+#section9 .conoce{
+	margin-top: 55px;
+}
+.icon-team{
+	width: 180px;
+}
+.cont-sec9 {
+    padding-top: 170px;
+}
+
+/* seccion 10 */
+.text-sec10-1{
+	font-family: Agenda-Light;
+	color: #043446;
+	font-size: 45px;
+	text-align: right;
+}
+.line-sec-10{
+    width: 50px;
+    height: 10px;
+    margin-right: 10px;
+	background: url(../line.png)no-repeat center;
+}
+.text-sec10-2{
+	font-family: Agenda-Medium;
+	color: #043446;
+	font-size: 130px;
+    margin-top: -50px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+.text-sec10-3{
+	font-family: Agenda-Medium;
+	color: #043446;
+	font-size: 100px;
+    margin-top: -41px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+.text-sec10-4{
+	font-family: Agenda-Light;
+	color: #043446;
+	font-size: 45px;
+	line-height: 0.9;
+    text-align: left;
+    margin-left: 15px;
+    border-bottom: 1px solid #333333;
+}
+
+
+
+/* media querys for responsive */
+@media screen and (max-width: 1350px){
+.cont-sec3{
+	padding-top: 80px;
+}
+}
+@media screen and (max-width: 1350px){
+#section3 h1 {
+    font-size: 35px;
+}
+}
+@media screen and (max-width: 1200px){
+.cont-sec7 div {
+    float: none !important;
+}
+}
+@media screen and (max-width: 992px){
+.pd-top {
+    padding-top: 70px;
+}
+.cont-sec7 {
+	margin-bottom: 50px;
+}
+.cont-sec7 button{
+	float: none !important;
+}
+.cont-sec7 h2 {
+    font-family: zwodrei-Bold;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+.cont-sec7 h1 {
+    font-family: zwodrei-Bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.cont-sec7 p {
+    font-family: Agenda-Light;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+}
+@media screen and (max-width: 660px){
+
+}
+@media screen and (max-width: 550px){
+.pd-top {
+    padding-top: 55px;
+}
+.cont-sec7 h1 {
+    font-size: 35px;
+}
+.cont-sec7 h2 {
+    font-size: 33px;
+}
+.icon-sec7 {
+    width: 80px;
+    margin-bottom: 12px;
+}
+.arrowr, .arrowl {
+	display: none;
+}
+.arrow {
+    display: block;
+    width: 15px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 60%;
+}
+.cont-pro {
+    padding-left: 0px;
+}
+.logo {
+    width: 150px;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 420px){
+.cont-pro {
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 370px){
+.cont-pro {
+    padding-left: 20px;
+}
+.cont-sec7 .p-bold {
+    font-size: 15px;
+}
+.cont-sec7 p {
+    font-size: 13px;
+}
+}
+@media screen and (max-width: 320px){
+.icon-sec7 {
+    width: 70px;
+    margin-bottom: 12px;
+}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bitmedia",
+  "homepage": "https://github.com/RockerPro/bitmedia",
+  "authors": [
+    "RockerPro <cristival_2008_@hotmai.com>"
+  ],
+  "description": "sitio web de agencia bit media",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "fullpage.js": "^2.7.9"
+  }
+}
