@@ -15,13 +15,13 @@
 	<div class="caja">
 	<div id="sidebar">
           <ul>
-          	  <li data-menuanchor="Inicio"><a href="#Inicio">INICIO</a></li>
-			  <li data-menuanchor="Nosotros"><a href="#Nosotros">NOSOTROS</a></li>
-			  <li data-menuanchor="Servicios"><a href="#Servicios">SERVICIOS</a></li>
-			  <li data-menuanchor="Portafolio"><a href="#Portafolio">PORTAFOLIO</a></li>
-			  <li data-menuanchor="Equipo"><a href="#Equipo">EQUIPO</a></li>
-			  <li data-menuanchor="Clientes"><a href="#Clientes">CLIENTES</a></li>
-			  <li data-menuanchor="Contáctanos"><a href="#Contáctanos">CONTÁCTANOS</a></li>
+          	  <li data-menuanchor="inicio"><a href="#inicio">INICIO</a></li>
+			  <li data-menuanchor="nosotros"><a href="#nosotros">NOSOTROS</a></li>
+			  <li data-menuanchor="servicios"><a href="#servicios">SERVICIOS</a></li>
+			  <li data-menuanchor="portafolio"><a href="#portafolio">PORTAFOLIO</a></li>
+			  <li data-menuanchor="equipo"><a href="#equipo">EQUIPO</a></li>
+			  <li data-menuanchor="clientes"><a href="#clientes">CLIENTES</a></li>
+			  <li data-menuanchor="contactanos"><a href="#contactanos">CONTÁCTANOS</a></li>
           </ul>
       </div>
 	<div id="fullpage" class="main-content">
@@ -42,8 +42,8 @@
 						<img src="dist/logos/logo5.png" class="logos-bit" alt="Logo BitBusiness">
 					</div>
 				</div>
-				<div class="col-md-12 cont-logos" data-menuanchor="Nosotros">
-					<a href="#Nosotros">
+				<div class="col-md-12 cont-logos" data-menuanchor="marca-la-diferencia">
+					<a href="#marca-la-diferencia">
 						<img  data-wow-iteration="100"  data-wow-delay="1.5s" data-wow-duration="2s" class="wow bounceIn animated img-responsive down" 
 						src="dist/iconos/down.png" alt="down">
 					</a>
@@ -53,14 +53,14 @@
 		<div class="section" id="section2">
 			<div class="container">
 				<ul id="menu">
-					<li data-menuanchor="Inicio"><a href="#Inicio">INICIO</a></li>
-					<li data-menuanchor="Nosotros"><a href="#Nosotros">NOSOTROS</a></li>
-					<li data-menuanchor="Servicios"><a href="#Servicios">SERVICIOS</a></li>
-					<li data-menuanchor="Portafolio"><a href="#Portafolio">PORTAFOLIO</a></li>
+					<li data-menuanchor="inicio"><a href="#inicio">INICIO</a></li>
+			  		<li data-menuanchor="nosotros"><a href="#nosotros">NOSOTROS</a></li>
+			  		<li data-menuanchor="servicios"><a href="#servicios">SERVICIOS</a></li>
+			  		<li data-menuanchor="portafolio"><a href="#portafolio">PORTAFOLIO</a></li>
 					<li class="logo-white"><img src="dist/logos/logo6.png" alt="logo bitmedia - white"></li>
-					<li data-menuanchor="Equipo"><a href="#Equipo">EQUIPO</a></li>
-					<li data-menuanchor="Clientes"><a href="#Clientes">CLIENTES</a></li>
-					<li data-menuanchor="Contáctanos"><a href="#Contáctanos">CONTÁCTANOS</a></li>
+					<li data-menuanchor="equipo"><a href="#equipo">EQUIPO</a></li>
+			  		<li data-menuanchor="clientes"><a href="#clientes">CLIENTES</a></li>
+			  		<li data-menuanchor="contactanos"><a href="#contactanos">CONTÁCTANOS</a></li>
 					<li class="logo-white"><img src="dist/logos/fb.png" alt="logo bitmedia - white"></li>
 					<li class="logo-white"><img src="dist/logos/tw.png" alt="logo bitmedia - white"></li>
 				</ul>
@@ -328,14 +328,21 @@
 							</div>
 						</div>
 					</div>
+					<!-- <div class="hi-icon-wrap hi-icon-effect-8">
+						<a href="#set-8" class="hi-icon hi-icon-archive">Archive</a>
+						<a href="#set-8" class="hi-icon hi-icon-chat">Chat</a>
+						<a href="#set-8" class="hi-icon hi-icon-bookmark">Bookmarks</a>
+						<a href="#set-8" class="hi-icon hi-icon-user">User</a>
+						<a href="#set-8" class="hi-icon hi-icon-contract">Contact</a>
+					</div> -->
 				</div>
 			</div>
 		</div>
 		<div class="section" id="section8">
-			<div class="container cont-sec3">
+			<div class="container cont-sec8">
 				<div class="col-md-12">
-					<h1><e style="font-family: Agenda-Bold;font-size: 51px;">¡</e> PARTICIPAMOS EN 
-					<e style="font-family: Agenda-Bold;font-size: 51px;">!</e></h1>
+					<h1><e class="til-sig">¡</e> PARTICIPAMOS EN 
+					<e class="til-sig">!</e></h1>
 					<p class="text">Sello que nos identifica
 					</p>
 				</div>
@@ -385,7 +392,7 @@
 			<div class="container pd-top">
 				<div class="row">
 					<div class="col-md-2 col-xs-1"></div>
-					<div class="col-md-6 col-xs-8">
+					<div class="col-md-6 col-xs-10">
 						<div class="text-sec10-1">
 							<label class="line-sec-10"></label>
 							<label>otra forma de</label>
@@ -434,31 +441,31 @@
 				<h1>CLIENTES</h1>
 				<p class="text">Que confían en BITMedia</p>
 				<div class="col-md-12 cont-clients">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/acuario.png" alt="acuario">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/volcano.png" alt="volcano">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/sobek.png" alt="sobek">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/app.png" alt="app">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/produlica.png" alt="produlica">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/audioplust.png" alt="audioplust">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/japeru.png" alt="japeru">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/innova.png" alt="innova school">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-client" src="dist/clientes/andemos.png" alt="andemos">
 					</div>
 				</div>

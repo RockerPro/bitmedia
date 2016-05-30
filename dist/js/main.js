@@ -5,7 +5,7 @@ $(document).ready(function() {
         scrollOverflow: true,
         css3:false,
         scrollBar:true,
-        anchors: ['Inicio', 'Nosotros', 'Servicios', 'Portafolio', 'Clientes','Contáctanos','8','9','10','11','12','13'],
+        anchors: ['inicio', 'marca-la-diferencia', 'nuestra-ideologia', 'nosotros', 'servicios','te-ayudamos','te-proponemos','portafolio','equipo','grandes-ideas','clientes','contactanos'],
         menu: '#menu',
         scrollingSpeed: 1000
       });
