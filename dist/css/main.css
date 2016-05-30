@@ -23,7 +23,9 @@
 		margin:0;
 		padding:0;
 	}
-
+	body{
+	    background: #353535;
+	}
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
@@ -53,7 +55,7 @@
 	* --------------------------------------- */
 	#section1{
 		background-image: url(../fotos/1.jpg);
-		padding: 20% 0 0 0;
+	    z-index: 100;
 	}
 	#section2{
 		background-image: url(../fotos/2.jpg);
@@ -95,6 +97,10 @@
 	width: 190px;
 	margin: 0 auto;
 }
+.down {
+	width: 64px;
+    margin: 0 auto;
+}
 .logos-bit{
 	width: 140px;
 }
@@ -123,11 +129,11 @@
 	font-size: 14px;
 	color: white;
 	text-align: center;
-    width: 500px;
+ /*   width: 500px;*/
     margin: 0 auto;
 }
 .cont-sec2{
-	margin-top: 210px;
+	margin-top: -110px;
 }
 /* anicacion material boton */
 .btn-green{
@@ -142,6 +148,7 @@
   border-radius: 10px;
   font-size: 20px;
   font-family: Agenda-Bold;
+  text-decoration: none;
 }
 /* seccion 3 */
 #section3 h1{
@@ -151,13 +158,17 @@
 	text-shadow: 1px 2px #2B2A2A;
 }
 .icon-ideologia{
-	width: 100px;
+	width: 140px;
 }
 #section3 .nuestra{
-	margin-top: 35px;
+	margin-top: 55px;
 }
 .cont-sec3{
-	padding-top: 120px;
+    height: auto;
+    background: #011720;
+    margin-top: -180px;
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 .tit-ideologia{
 	font-family: Agenda-Light;
@@ -219,8 +230,13 @@
 	font-family: zwodrei-Bold;
 	color: white;
 }
+.til-sig{
+	font-family: Agenda-Bold;
+	font-size: 57px;
+}
 .cont-sec4{
 	padding-top: 120px;
+    padding-bottom: 50px;
 }
 .wt1{
 	background: rgba(102, 102, 102, 0.7);
@@ -268,7 +284,8 @@
 	margin-top: 60px;
 }
 .cont-foo{
-	padding-bottom: 35px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .cont-sec6{
 	padding-top: 120px;
@@ -361,7 +378,7 @@
 	text-align: left;
 }
 .pd-top{
-	padding-top: 200px;
+	padding-top: 100px;
 }
 .pd-btn{
 	padding-bottom: 30px;
@@ -389,7 +406,7 @@
 	width: 180px;
 }
 .cont-sec9 {
-    padding-top: 170px;
+    
 }
 
 /* seccion 10 */
@@ -431,13 +448,234 @@
     border-bottom: 1px solid #333333;
 }
 
+/* seccion 11*/
+.cont-sec11{
+	padding-top: 120px;
+}
+#section11 h1{
+	font-family: zwodrei-Bold;
+	color: #043446;
+	font-size: 40px;
+}
+.cont-clients{
+	margin-top: 40px;
+    margin-bottom: 70px;
+}
+.img-client{
+    width: 170px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.partner{
+    width: 250px;
+    margin: 0 auto;
+}
+/* seccion 12*/
+.cont-sec11{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#section12 h1{
+	font-family: zwodrei-Bold;
+	color: white;
+	font-size: 40px;
+}
+#section12 div p{
+	color: white;
+}
+.checkbox{
+	color: white;
+	font-family: Agenda-Light;
+    font-size: 17px;
+    overflow: hidden;
+}
+#form-contac{
+	margin-top: 50px;
+}
+.mini{
+    margin-top: -5px;
+    padding-right: 15px;
+}
+.datos-foo{
+    padding-left: 0;
+    text-align: left;
+    color: white;
+    list-style: none;
+    font-family: Agenda-Light;
+    font-size: 13px;
+}
+.fb-tw{
+	width: 80px;
+}
+.ul-redes{
+	list-style: none;
+    float: right !important;
+    margin-top: 30px;
+}
+.ul-redes li{
+	float: left;
+	padding-right: 15px;
+}
+/*--------menu -------*/
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:transparent;
+}
+#menu li.active{
+	background: transparent !important;
+    border: 1px solid white;
+    color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: white;
+	font-family: Agenda-Light;
+}
+#menu li.active a:hover{
+	color: white;
+}
+#menu li a:hover{
+    color: #1ECD9B;
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 80px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+    background: rgba(4,52,70,0.8);
+    opacity: 0.9;
+}
+.logo-white {
+	background: transparent !important;
+}
+.logo-white img{
+	width: 70px;
+}
+
+.caja {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -webkit-transition:  left 0.4s ease-in-out;
+    -moz-transition:  left 0.4s ease-in-out;
+    -ms-transition:  left 0.4s ease-in-out;
+    -o-transition:  left 0.4s ease-in-out;
+    transition:  left 0.4s ease-in-out;
+}
+
+.caja.open-sidebar {
+    left: 200px;
+}
+
+#sidebar {
+	position: absolute;
+    left: -200px;
+    background: rgba(4,52,70,0.8);
+    width: 200px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 40px;
+    opacity: 0.9;
+}
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#sidebar ul li {
+    margin: 0;
+}
+#sidebar ul li a {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    display: block;
+/*    border-bottom: 1px solid #C9223D;*/
+    -webkit-transition:  background 0.3s ease-in-out;
+    -moz-transition:  background 0.3s ease-in-out;
+    -ms-transition:  background 0.3s ease-in-out;
+    -o-transition:  background 0.3s ease-in-out;
+    transition:  background 0.3s ease-in-out;
+}
+#sidebar ul li:hover a {
+    background: #1ECD9B;
+}
+.main-content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+.main-content .content{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+padding-left: 60px;
+width: 100%;
+}
+.main-content .content h1{
+    font-weight: 100;
+}
+.main-content .content p{
+    width: 100%;
+    line-height: 160%;
+}
+.main-content #sidebar-toggle {
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 15px;
+    float: left;
+}
+.main-content #sidebar-toggle .bar{
+     display: block;
+    width: 18px;
+    margin-bottom: 3px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;   
+}
+.main-content #sidebar-toggle .bar:last-child{
+     margin-bottom: 0;   
+}
+
+.menu-resp{
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgba(4,52,70,0.8);
+    opacity: 0.9;
+}
+
+
 
 
 /* media querys for responsive */
 @media screen and (max-width: 1350px){
-.cont-sec3{
-	padding-top: 80px;
-}
+
 }
 @media screen and (max-width: 1350px){
 #section3 h1 {
@@ -448,8 +686,33 @@
 .cont-sec7 div {
     float: none !important;
 }
+
+}
+@media screen and (max-width: 1155px){
+#menu{
+	height: 65px;
+}
+#menu li a{
+	font-size: 13px;
+}
+#menu li{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.logo-white img {
+    width: 50px;
+}
+}
+@media screen and (max-width: 1009px){
+/*#menu{
+	display: none;
+}*/
 }
 @media screen and (max-width: 992px){
+.cont-sec2{
+    background: rgba(4,52,70,0.8);
+    padding: 15px;
+}
 .pd-top {
     padding-top: 70px;
 }
@@ -478,8 +741,33 @@
     text-align: center;
 }
 }
-@media screen and (max-width: 660px){
-
+@media screen and (max-width: 948px){
+#menu{
+	display: none;
+}
+.menu-resp{
+	display: block;
+}
+.line-green{
+	display: none;
+}
+#section5 h1{
+	font-size: 40px;
+	font-family: zwodrei-Bold;
+	color: white;
+}
+.til-sig{
+	font-family: Agenda-Bold;
+	font-size: 47px;
+}
+}
+@media screen and (max-width: 767px){
+.cont-sec3{
+	margin-top: 0px;
+}
+.icon-ideologia {
+    width: 110px;
+}
 }
 @media screen and (max-width: 550px){
 .pd-top {
@@ -520,6 +808,10 @@
     padding-left: 10px;
 }
 @media screen and (max-width: 370px){
+.cont-sec2 {
+    margin-top: 0;
+    padding-top: 80px;
+}
 .cont-pro {
     padding-left: 20px;
 }

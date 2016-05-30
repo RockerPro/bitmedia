@@ -9,45 +9,86 @@
 	<style>
 
 	</style>
+
 </head>
 <body>
-	<div id="fullpage">
+	<div class="caja">
+	<div id="sidebar">
+          <ul>
+          	  <li data-menuanchor="Inicio"><a href="#Inicio">INICIO</a></li>
+			  <li data-menuanchor="Nosotros"><a href="#Nosotros">NOSOTROS</a></li>
+			  <li data-menuanchor="Servicios"><a href="#Servicios">SERVICIOS</a></li>
+			  <li data-menuanchor="Portafolio"><a href="#Portafolio">PORTAFOLIO</a></li>
+			  <li data-menuanchor="Equipo"><a href="#Equipo">EQUIPO</a></li>
+			  <li data-menuanchor="Clientes"><a href="#Clientes">CLIENTES</a></li>
+			  <li data-menuanchor="Contáctanos"><a href="#Contáctanos">CONTÁCTANOS</a></li>
+          </ul>
+      </div>
+	<div id="fullpage" class="main-content">
 		<div class="section" id="section1">
 			<div class="container">
-				<img src="dist/logos/logo1.png" class="img-responsive logo" alt="Logo bitmedia">
+				<img src="dist/logos/logo1.png" class="img-responsive logo wow zoomIn" alt="Logo bitmedia">
 				<div class="col-md-8 cont-logos">
-					<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.3s">
 						<img src="dist/logos/logo2.png" class="logos-bit" alt="Logo BitMedia">
 					</div>
-					<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.6s">
 						<img src="dist/logos/logo3.png" class="logos-bit" alt="Logo BitFresh">
 					</div>
-					<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="0.9s">
 						<img src="dist/logos/logo4.png" class="logos-bit" alt="Logo BitPubli">
 					</div>
-					<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3 wow fadeIn" data-wow-delay="1.2s">
 						<img src="dist/logos/logo5.png" class="logos-bit" alt="Logo BitBusiness">
 					</div>
+				</div>
+				<div class="col-md-12 cont-logos" data-menuanchor="Nosotros">
+					<a href="#Nosotros">
+						<img  data-wow-iteration="100"  data-wow-delay="1.5s" data-wow-duration="2s" class="wow bounceIn animated img-responsive down" 
+						src="dist/iconos/down.png" alt="down">
+					</a>
 				</div>
 			</div>
 		</div>
 		<div class="section" id="section2">
 			<div class="container">
+				<ul id="menu">
+					<li data-menuanchor="Inicio"><a href="#Inicio">INICIO</a></li>
+					<li data-menuanchor="Nosotros"><a href="#Nosotros">NOSOTROS</a></li>
+					<li data-menuanchor="Servicios"><a href="#Servicios">SERVICIOS</a></li>
+					<li data-menuanchor="Portafolio"><a href="#Portafolio">PORTAFOLIO</a></li>
+					<li class="logo-white"><img src="dist/logos/logo6.png" alt="logo bitmedia - white"></li>
+					<li data-menuanchor="Equipo"><a href="#Equipo">EQUIPO</a></li>
+					<li data-menuanchor="Clientes"><a href="#Clientes">CLIENTES</a></li>
+					<li data-menuanchor="Contáctanos"><a href="#Contáctanos">CONTÁCTANOS</a></li>
+					<li class="logo-white"><img src="dist/logos/fb.png" alt="logo bitmedia - white"></li>
+					<li class="logo-white"><img src="dist/logos/tw.png" alt="logo bitmedia - white"></li>
+				</ul>
+				<div class="menu-resp">
+					<a href="#" data-toggle=".caja" id="sidebar-toggle">
+		              <span class="bar"></span>
+		              <span class="bar"></span>
+		              <span class="bar"></span>
+		          	</a>
+				</div>
+			</div>
+			<div class="container">
 				<div class="row">
 				<div class="col-md-6"></div>
 				<div class="col-md-6 cont-sec2">
-					<h1>''MARCA LA DIFERENCIA'' </h1>
-					<h3>AGENCIA <b>PUBLICITARIA DIGITAL</b></h3>
-					<p>Desarrollo de <b>páginas web</b>, <b>posicionamiento</b> web,<br>
+					<h1 class="wow bounceIn" data-wow-delay="0.3s">''MARCA LA DIFERENCIA'' </h1>
+					<h3 class="wow fadeIn" data-wow-delay="0.6s">AGENCIA <b>PUBLICITARIA DIGITAL</b></h3>
+					<p class="wow fadeIn" data-wow-delay="0.9s">Desarrollo de <b>páginas web</b>, <b>posicionamiento</b> web,<br>
 					<b>Apps</b>, diseño de identidad, <b>campañas</b> publicitarias, <b>refrescamos</b><br>
 					tu página web, diseño 3D y <b>asesoría</b> en estrategias de negocios.
-					</p>
-					<button class="btn-green">Contáctanos</button>
+					</p> <br>
+					<bottom href="#Contáctanos" class="btn-green wow fadeIn" data-wow-delay="1.2s">Contáctanos</bottom>
 				</div>
 				</div>
 			</div>
 		</div>
 		<div class="section" id="section3">
+			<div class="container-fluid">
 			<div class="row cont-sec3">
 				<div class="col-md-12">
 					<h1>NUESTRA IDEOLOGIA</h1>
@@ -93,9 +134,10 @@
 					<div class="col-md-3 pull-right"></div>
 				</div>
 			</div> -->
+			</div>
 		</div>
 		<div class="section" id="section4">
-			<div class="container cont-sec3">
+			<div class="container cont-sec4">
 				<div class="col-md-12">
 					<h1>ACERCA DE NOSOTROS</h1>
 					<p class="text">Somos la cara visible de los objetivos que nos proponemos día a día, trabajando para <br>
@@ -144,9 +186,9 @@
 		<div class="section" id="section5">
 			<div class="row cont-sec4 wt1">
 				<div class="col-md-12">
-					<h1><e style="font-family: Agenda-Bold;font-size: 57px;">¿</e>
-					QU<e style="font-family: Agenda-Bold;font-size: 57px;">É</e> PODEMOS HACER POR TI
-					<e style="font-family: Agenda-Bold;font-size: 57px;">?</e></h1>
+					<h1><e class="til-sig">¿</e>
+					QU<e class="til-sig">É</e> PODEMOS HACER POR TI
+					<e class="til-sig">?</e></h1>
 					<p class="text2">Tú solución esta mas cerca de lo  que piensas
 					</p>
 				</div>
@@ -175,14 +217,14 @@
 		<div class="section" id="section6">
 			<div class="row cont-sec6">
 				<div class="col-md-12">
-					<h1><e style="font-family: Agenda-Bold;font-size: 51px;">¿</e>
-					DE QU<e style="font-family: Agenda-Bold;font-size: 51px;">É</e> OTRA FORMA TE 
+					<h1><e class="til-sig">¿</e>
+					DE QU<e class="til-sig">É</e> OTRA FORMA TE 
 					PODEMOS <br>AYUDAR
-					<e style="font-family: Agenda-Bold;font-size: 51px;">?</e></h1>
+					<e class="til-sig">?</e></h1>
 				</div>
 				<div class="col-md-12 nuestra">
 					<div class="col-md-2 col-sm-2 hidden-xs"></div>
-					<div class="col-md-2 col-sm-2 col-xs-6">
+					<div class="col-md-2 col-sm-2 col-xs-12">
 						<div class="col-md-12">
 							<img class="icon-help" src="dist/iconos/icono7.png" alt="ideas bitmedia">
 						</div>
@@ -192,7 +234,7 @@
 						</div>
 					</div>
 					<div class="col-md-1 col-sm-1  col-xs-1"></div>
-					<div class="col-md-2 col-sm-2 col-xs-6">
+					<div class="col-md-2 col-sm-2 col-xs-12">
 						<div class="col-md-12">
 							<img class="icon-help" src="dist/iconos/icono8.png" alt="ideas bitmedia">
 						</div>
@@ -202,7 +244,7 @@
 						</div>
 					</div>
 					<div class="col-md-1 col-sm-1  col-xs-3"></div>
-					<div class="col-md-2 col-sm-2 col-xs-6">
+					<div class="col-md-2 col-sm-2 col-xs-12">
 						<div class="col-md-12">
 							<img class="icon-help" src="dist/iconos/icono9.png" alt="ideas bitmedia">
 						</div>
@@ -213,7 +255,7 @@
 					</div>
 					<div class="col-md-4"></div>
 				</div>
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-12 col-xs-12">
 					<button class="btn-green">Escríbenos</button>
 				</div>
 			</div>
@@ -388,14 +430,113 @@
 			</div>
 		</div>
 		<div class="section" id="section11">
-			<div class="container">
-				lol
+			<div class="container cont-sec11">
+				<h1>CLIENTES</h1>
+				<p class="text">Que confían en BITMedia</p>
+				<div class="col-md-12 cont-clients">
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/acuario.png" alt="acuario">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/volcano.png" alt="volcano">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/sobek.png" alt="sobek">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/app.png" alt="app">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/produlica.png" alt="produlica">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/audioplust.png" alt="audioplust">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/japeru.png" alt="japeru">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/innova.png" alt="innova school">
+					</div>
+					<div class="col-md-4">
+						<img class="img-client" src="dist/clientes/andemos.png" alt="andemos">
+					</div>
+				</div>
+				<h1>BUSINESS PARTNER</h1>
+				<p class="text">Aliado estratégico para lograr un máximo éxito</p>
+				<img class="partner" src="dist/clientes/tkmc.jpg" alt="bussiness partner tkmc">
 			</div>
 		</div>
-		<div class="section" id="section12"><h1>12</h1></div>
+		<div class="section" id="section12">
+			<div class="container cont-sec11">
+				<h1>MARCA LA DIFERENCIA</h1>
+				<p class="text">Escríbenos para resolver juntos tus dudas y/o problemas</p>
+				<div class="col-md-3 col-sm-12 col-xs-12"></div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<form id="form-contac">
+						<div  class="col-md-12 col-sm-10 col-xs-12 mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						    <input class="mdl-textfield__input mdl-color-text--white" type="text" id="nom">
+						    <label class="mdl-textfield__label mdl-color-text--white" for="nom">Nombre y Apellido</label>
+						</div>
+						<div  class="col-md-12 col-sm-10 col-xs-12 mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						    <input class="mdl-textfield__input mdl-color-text--white" type="text" id="email">
+						    <label class="mdl-textfield__label mdl-color-text--white" for="email">E-mail</label>
+						</div>
+						<div class="col-md-12 col-sm-10 col-xs-12 mdl-textfield mdl-js-textfield">
+						    <input class="mdl-textfield__input mdl-color-text--white" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="telef">
+						    <label class="mdl-textfield__label mdl-color-text--white" for="telef">Celular/ Teléfono</label>
+						    <span class="mdl-textfield__error">Ingrese un número valido!</span>
+						 </div>
+						<div  class="col-md-12 col-sm-10 col-xs-12 mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						    <input class="mdl-textfield__input mdl-color-text--white" type="text" id="motivo">
+						    <label class="mdl-textfield__label mdl-color-text--white" for="motivo">Motivo</label>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 checkbox">
+							<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+							  <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+							  <span class="mdl-switch__label"></span>
+							</label>
+							<label for="switch-1">Solicitar Cotización</label>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<button style="background: rgb(30,205,155);font-family: Agenda-Light;font-size: 20px;margin-top: 15px;"
+							class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+							  Enviar
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="container">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<ul class="datos-foo">
+						<li><strong>BITM</strong>EDIA / Agencia</li>
+						<li>Lima, Perú +51 1 9947732292 / +51 1 990129541 / +51 1 957342364  INFORMES@BITMEDIA.PE</li>
+						<li><img class="mini" src="dist/logos/mini.png" alt="logo bitmedia mini"> © 2016 - GRUPO BITMEDIA - TODOS LOS DERECHOS RESERVADOS</li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<ul class="ul-redes">
+						<li><img class="fb-tw" src="dist/logos/fb.png" alt="facebook bitmedia"></li>
+						<li><img class="fb-tw" src="dist/logos/tw.png" alt="twitter bitmedia"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 
 
 	<?php include 'layouts/scripts.php'; ?>
+	<script type="text/javascript">//<![CDATA[ 
+    $(window).load(function(){
+      $("[data-toggle]").click(function() {
+        var toggle_el = $(this).data("toggle");
+        $(toggle_el).toggleClass("open-sidebar");
+
+      });
+    });//]]>  
+    
+    </script>
+    </div>
 </body>
 </html>
